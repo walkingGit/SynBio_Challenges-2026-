@@ -271,9 +271,14 @@ All sequences fold with HIGH confidence as monomers (pLDDT >= 90). The sfGFP-bas
 
 **Dimer interface assessment**: 
 - **Seq 3 (H148S + V206F)**: iPTM=0.53 — MODERATE dimer interface. The H148S mutation may help stabilize the interface through water network formation. Individual chains fold excellently (chain pTM 0.97). This dimer has a reasonable chance of forming partially in CFPS conditions.
-  
+<img width="840" height="595" alt="3" src="https://github.com/user-attachments/assets/f066783a-c44f-4a3b-acd7-f48ef3277b80" />
+
 - **Seq 1 (StayGold)**: Has a NATURAL dimer interface (not predicted here, but experimentally validated in the StayGold crystal structure PDB 8BXT). No interface concern.
+<img width="840" height="595" alt="1" src="https://github.com/user-attachments/assets/3f4b43bd-351a-4d27-884a-1e983ce1b1d6" />
+
 - **Seq 6 (V206F only)**: iPTM=0.49 — MODERATE-WEAK dimer interface. Similar to Seq 3 but without the H148S water network stabilization. Individual chains fold well (chain pTM 0.97). The dimer may partially form in CFPS. As a monomer, Seq 6 still benefits from K158G (2.48×) and S175T (1.95×) brightness mutations.
+<img width="840" height="595" alt="6" src="https://github.com/user-attachments/assets/1200e2bf-64fc-47f4-a721-2af5cf62b092" />
+
 - **Seq 4 (H148S monomer)**: Boltz-2 confirmed pTM=0.934, pLDDT=94.2 — HIGH confidence monomer fold. Essentially identical to Seq 3 (pTM=0.940, pLDDT=94.9), confirming V206F→V reversion has negligible structural impact. Designed as guaranteed monomer with no dimer dependency.
 
 ### ThermoMPNN Stability Analysis
