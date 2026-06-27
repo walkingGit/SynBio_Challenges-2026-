@@ -1,5 +1,5 @@
 # <img width="157" height="52" alt="image" src="https://github.com/user-attachments/assets/f64688f1-cbc3-4fa8-b1ff-b8879140c9dc" />  SynBio-Challenges(2026) 
-##           — Team BMSCityUHK
+## BMSCityUHK Team
 
 ## Overview
 
