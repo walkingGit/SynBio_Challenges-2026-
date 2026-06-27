@@ -208,6 +208,7 @@ Mutations removed based on ThermoMPNN destabilization:
 ## Gain/Risk Analysis Summary
 
 Quantitative gain/risk scoring was performed for all 6 sequences. Each sequence was scored on Gain (1-10, based on expected brightness) and Risk (1-10, composite of dominant failure mode). Net = Gain - Risk.
+<img width="850" height="579" alt="image" src="https://github.com/user-attachments/assets/83c8175b-1cff-47c4-8923-baeaa4c6840a" />
 
 | Seq | Name | Expected Brightness | Best Case | Worst Case | Dimer Prob | Gain/10 | Risk/10 | Net | Verdict |
 |-----|------|-------------------|-----------|------------|------------|---------|---------|-----|---------|
@@ -223,6 +224,7 @@ Quantitative gain/risk scoring was performed for all 6 sequences. Each sequence 
 **Key insight**: The new Seq 4 (H148S monomer) has the best net score (+4) because it eliminates dimer risk entirely while maintaining high brightness from YuzuFP + data-driven mutations. Its worst-case brightness (4.50×) equals Seq 3's worst case, but with zero dimer dependency.
 
 ### Competition Score Estimates (F_final/F_sfGFP)
+<img width="850" height="579" alt="image" src="https://github.com/user-attachments/assets/cce2bd30-61a9-41c3-99a3-21ff67e2dd8f" />
 
 | Seq | F_initial/F_sfGFP | F_final/F_initial | F_final/F_sfGFP | Confidence |
 |-----|--------------------|--------------------|-----------------|------------|
@@ -249,6 +251,8 @@ Quantitative gain/risk scoring was performed for all 6 sequences. Each sequence 
 ## Structural Validation
 
 ### Boltz-2 Predictions
+<img width="848" height="557" alt="image" src="https://github.com/user-attachments/assets/a19328bf-aefb-497b-8a16-e2ab9061b6d7" />
+
 | Sequence | Type | pTM | iPTM | pLDDT | Quality |
 |----------|------|-----|------|-------|---------|
 | Seq 1 (StayGold dimer) | monomer | 0.900 | — | 90.0 | HIGH |
