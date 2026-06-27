@@ -1,4 +1,4 @@
-# <div align="center"> <img width="54" height="47" alt="image" src="https://github.com/user-attachments/assets/3d9f01fd-5fe0-401a-b967-fecc850640d2" /> SynBio-Challenges(2026) 
+# <div align="center"> <img width="54" height="47" alt="image" src="https://github.com/user-attachments/assets/3d9f01fd-5fe0-401a-b967-fecc850640d2" /> SynBio-Challenges (2026) 
 ## <div align="center"> <img width="70" height="45" alt="image" src="https://github.com/user-attachments/assets/7097dffa-b2c7-4ace-9843-cc111edd04fc" /> BMSCityUHK Team
 
 ## Overview
