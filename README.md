@@ -224,7 +224,7 @@ Quantitative gain/risk scoring was performed for all 6 sequences. Each sequence 
 **Key insight**: The new Seq 4 (H148S monomer) has the best net score (+4) because it eliminates dimer risk entirely while maintaining high brightness from YuzuFP + data-driven mutations. Its worst-case brightness (4.50×) equals Seq 3's worst case, but with zero dimer dependency.
 
 ### Competition Score Estimates (F_final/F_sfGFP)
-<img width="850" height="579" alt="image" src="https://github.com/user-attachments/assets/cce2bd30-61a9-41c3-99a3-21ff67e2dd8f" />
+<img width="1726" height="1139" alt="image" src="https://github.com/user-attachments/assets/0b5b632f-d485-4f6b-96d9-af1ded7003ea" />
 
 | Seq | F_initial/F_sfGFP | F_final/F_initial | F_final/F_sfGFP | Confidence |
 |-----|--------------------|--------------------|-----------------|------------|
