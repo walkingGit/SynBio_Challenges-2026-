@@ -26,7 +26,7 @@ Our designs leverage three key insights:
 | Chromophore stabilization | H148S (YuzuFP), water network, conformational restriction | H148S alone gives 1.5× brightness [3]; GFP-diS2 gives 2.9× [4] |
 | Data-driven mutations | K158G, S175T, D19E from deep mutational scan | K158G gives 2.48× WT brightness as single mutation [5] |
 | ThermoMPNN-guided stability | T203I (ddG=-0.98), R80E (ddG=-0.76) | Stabilizing mutations that also enhance brightness or supercharging |
-| CFPS compatibility | Remove cysteines, optimize surface charge | CFPS is reducing environment; free Cys misfold |
+| Cell-Free Protein Synthesis (CFPS) compatibility | Remove cysteines, optimize surface charge | CFPS is reducing environment; free Cys misfold |
 
 ### Five Fluorescence Enhancement Mechanisms
 
