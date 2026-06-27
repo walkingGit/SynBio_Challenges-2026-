@@ -12,6 +12,7 @@ Our designs leverage three key insights:
 2. **Dimer engineering enhances per-chromophore brightness up to 2.9×**: Through organized water networks at the dimer interface (GFP-diS2 mechanism), exciton coupling, and conformational restriction, dimers can be far brighter than simply having two chromophores.
 
 3. **Data-driven brightness mutations**: Analysis of 51,715 avGFP variants from the Sarkisyan 2016 deep mutational scan identified K158G (2.48× WT) and S175T (1.95× WT) as the two most impactful single mutations for brightness. These have been incorporated into our sfGFP-based designs.
+4. **CFPS Optimization**: All sequences are expressed via **NEBexpress cell-free protein synthesis (CFPS)** at 30C for 3 hours. CFPS imposes unique constraints that shaped multiple design decisions: 1. Reducing environment — no disulfide bond formation; 2. Fast folding required — 3h expression window; 3. Aggregation-prone at high concentration.
 
 ## Design Strategy
 <img width="1363" height="612" alt="diagram" src="https://github.com/user-attachments/assets/8d63e09e-3102-4f61-a7ac-2d218c65c515" />
