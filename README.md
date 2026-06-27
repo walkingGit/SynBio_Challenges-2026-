@@ -3,9 +3,9 @@
 
 ## Overview
 
-6 engineered GFP sequences were designed for SynBio-Challenges(2026), targeting fluorescent and thermostabilidy, with the following guideline:
+Six engineered GFP sequences were designed for SynBio-Challenges(2026), targeting fluorescent and thermostability, with the following guideline:
 
-Our designs leverage three key insights:
+### Our designs leverage three key insights:
 
 1. **Refolding efficiency**: At 72°C/10min, most GFPs partially unfold. The score depends on whether unfolded molecules refold during 5-min renaturation at 25°C. Preventing irreversible aggregation is the critical bottleneck.
 
