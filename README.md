@@ -124,7 +124,8 @@ Mutations removed based on ThermoMPNN destabilization:
   - K16E, K20E, K26E, K100E, K114E, K130E, K171E, K173E, R213E (surface supercharging)
 - **Rationale**: mBaoJin has high intrinsic brightness (EC=128K, QY=0.93) and excellent thermostability (Tm≈95°C). Supercharging ensures aggregation prevention.
 - **Expected score**: ~1.35× sfGFP
-<img width="840" height="595" alt="sw2" src="https://github.com/user-attachments/assets/f0ef9bd0-39fa-4026-a8b8-8738fe7cc592" />
+<img width="840" height="595" alt="2" src="https://github.com/user-attachments/assets/f940efde-3305-43f7-b68c-6a2b32ee05b3" />
+
 
 ### Seq 3: sfGFP H148S Dimer (Best Brightness — MEDIUM RISK) ★ UPDATED
 - **Scaffold**: sfGFP (EC=83,300, QY=0.65)
