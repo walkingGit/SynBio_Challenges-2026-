@@ -203,7 +203,6 @@ Mutations removed based on ThermoMPNN destabilization:
   - C48S, C70A (remove cysteines)
 - **Rationale**: Simpler dimer design without H148S/C mutations. V206F promotes dimerization for refolding protection + EC enhancement + exciton coupling. K158G and S175T provide strong brightness baseline from data. N198P and H231P improve heat recovery. K26E and K131E removed as most destabilizing supercharging. N39P and E172P were removed based on ThermoMPNN (ddG=+2.38 and +1.26 respectively).
 - **Expected score**: ~1.5× sfGFP (improved heat recovery)
-<img width="840" height="595" alt="4" src="https://github.com/user-attachments/assets/9a6df3bd-8e80-4c9b-8b20-fece64facd2a" />
 <img width="840" height="595" alt="6" src="https://github.com/user-attachments/assets/33bda19f-a44b-4ebb-ae52-11966193e325" />
 
 ## Gain/Risk Analysis Summary
