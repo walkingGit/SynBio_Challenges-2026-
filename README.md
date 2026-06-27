@@ -1,4 +1,5 @@
-![Uploading image.png…]()
+<img width="1572" height="525" alt="image" src="https://github.com/user-attachments/assets/f64688f1-cbc3-4fa8-b1ff-b8879140c9dc" />
+
 # GFP Competition Design Document — Team BMSCityUHK
 
 ## Overview
