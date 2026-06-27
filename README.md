@@ -13,6 +13,7 @@ Our designs leverage three key insights:
 3. **Data-driven brightness mutations**: Analysis of 51,715 avGFP variants from the Sarkisyan 2016 deep mutational scan identified K158G (2.48× WT) and S175T (1.95× WT) as the two most impactful single mutations for brightness. These have been incorporated into our sfGFP-based designs.
 
 ## Design Strategy
+<img width="1363" height="612" alt="diagram" src="https://github.com/user-attachments/assets/8d63e09e-3102-4f61-a7ac-2d218c65c515" />
 
 ### Core Principles
 
