@@ -1,5 +1,5 @@
-# <div align="center"> <img width="54" height="47" alt="image" src="https://github.com/user-attachments/assets/3d9f01fd-5fe0-401a-b967-fecc850640d2" /> SynBio-Challenges (2026) 
-## <div align="center"> <img width="70" height="45" alt="image" src="https://github.com/user-attachments/assets/7097dffa-b2c7-4ace-9843-cc111edd04fc" /> BMSCityUHK Team
+# <div align="center"> <img width="54" height="47" alt="image" src="https://github.com/user-attachments/assets/3d9f01fd-5fe0-401a-b967-fecc850640d2" /> SynBio-Challenges (2026) </div>
+## <div align="center"> <img width="70" height="45" alt="image" src="https://github.com/user-attachments/assets/7097dffa-b2c7-4ace-9843-cc111edd04fc" /> BMSCityUHK Team </div>
 
 ## Overview
 
@@ -22,7 +22,7 @@ Six engineered GFP sequences were designed for SynBio-Challenges(2026), targetin
 4. **CFPS Optimization**: All sequences are expressed via **NEBexpress cell-free protein synthesis (CFPS)** at 30C for 3 hours. CFPS imposes unique constraints that shaped multiple design decisions: 1. Reducing environment — no disulfide bond formation; 2. Fast folding required — 3h expression window; 3. Aggregation-prone at high concentration.
 
 ## Design Strategy
-<div align="center"> <img width="2000" height="899" alt="image" src="https://github.com/user-attachments/assets/99e6c7af-75ab-47f5-a8c5-0a212eef21a2" />
+<div align="center"> <img width="2000" height="899" alt="image" src="https://github.com/user-attachments/assets/99e6c7af-75ab-47f5-a8c5-0a212eef21a2" /> </div>
 
 
 ### Core Principles
@@ -123,7 +123,7 @@ Mutations removed based on ThermoMPNN destabilization:
 - **Boltz-2 validation**: Monomer pTM=0.90, pLDDT=90.0 (high confidence)
 - **Rationale**: StayGold's natural dimer provides EC enhancement (Mechanism D). At 72°C, StayGold is 23°C below its Tm, so it remains mostly folded. Surface supercharging prevents aggregation of any unfolded fraction.
 - **Expected score**: ~1.6× sfGFP
-<div align="center"> <img width="840" height="595" alt="sq1" src="https://github.com/user-attachments/assets/dc5ea8d6-3580-46ab-b2f4-d7cb14217eaa" />
+<div align="center"> <img width="840" height="595" alt="sq1" src="https://github.com/user-attachments/assets/dc5ea8d6-3580-46ab-b2f4-d7cb14217eaa" /> </div>
 
 ### Seq 2: mBaoJin Monomer (Overall Performance — LOW RISK)
 - **Scaffold**: mBaoJin (EC=128,000, QY=0.93, Tm≈95°C, monomer)
@@ -134,7 +134,7 @@ Mutations removed based on ThermoMPNN destabilization:
   - K16E, K20E, K26E, K100E, K114E, K130E, K171E, K173E, R213E (surface supercharging)
 - **Rationale**: mBaoJin has high intrinsic brightness (EC=128K, QY=0.93) and excellent thermostability (Tm≈95°C). Supercharging ensures aggregation prevention.
 - **Expected score**: ~1.35× sfGFP
-<div align="center"> <img width="840" height="595" alt="2" src="https://github.com/user-attachments/assets/f940efde-3305-43f7-b68c-6a2b32ee05b3" />
+<div align="center"> <img width="840" height="595" alt="2" src="https://github.com/user-attachments/assets/f940efde-3305-43f7-b68c-6a2b32ee05b3" /> </div>
 
 
 ### Seq 3: sfGFP H148S Dimer (Best Brightness — MEDIUM RISK) ★ UPDATED
@@ -158,7 +158,7 @@ Mutations removed based on ThermoMPNN destabilization:
   - C48S, C70A (remove cysteines)
 - **Rationale**: H148S makes the monomer 1.5× brighter (YuzuFP). K158G adds 2.48× (from data). V206F promotes dimerization for water network + exciton coupling + EC enhancement. N198P and H231P are loop prolines that restrict unfolded-state entropy, directly improving heat recovery (F_final/F_initial). V193L fills an internal cavity for core packing. K26E and K131E were removed as the two most destabilizing supercharging mutations (ddG +1.86 and +1.76), recovering 3.6 kcal/mol of stability while maintaining net charge -11.
 - **Expected score**: ~2.1× sfGFP (improved heat recovery vs previous design)
-<div align="center"> <img width="840" height="595" alt="3" src="https://github.com/user-attachments/assets/033ef6bc-89c3-4690-8fe4-df32703b1108" />
+<div align="center"> <img width="840" height="595" alt="3" src="https://github.com/user-attachments/assets/033ef6bc-89c3-4690-8fe4-df32703b1108" /> </div>
 
 ### Seq 4: sfGFP H148S Monomer (High Brightness — LOW RISK) ★★ UPDATED v2
 - **Scaffold**: sfGFP (EC=83,300, QY=0.65)
@@ -182,7 +182,7 @@ Mutations removed based on ThermoMPNN destabilization:
 - **Rationale**: This is Seq 3 without V206F. The H148S monomer is bright (YuzuFP effect, 1.5×), unlike H148C which is dim (CRO-OH state). By removing the dimer dependency, this sequence guarantees high brightness regardless of whether dimerization occurs. The strong data-driven mutations (K158G 2.48×, S175T 1.95×) provide a reliable brightness floor. N198P and H231P are loop prolines that directly improve heat recovery — the competition's key scoring bottleneck. K26E and K131E were removed as the two most destabilizing supercharging mutations, recovering 3.6 kcal/mol of stability. Net charge -11 is still strongly negative for solubility.
 - **Expected score**: ~2.2× sfGFP (improved heat recovery, reliable monomer)
 - **Exclusion check**: PASSED — minimum 19 AA mismatches from all 135K exclusion sequences
-<div align="center"> <img width="840" height="595" alt="4" src="https://github.com/user-attachments/assets/d33b3840-17f7-402b-ae85-07c89092b191" />
+<div align="center"> <img width="840" height="595" alt="4" src="https://github.com/user-attachments/assets/d33b3840-17f7-402b-ae85-07c89092b191" /> </div>
 
 ### Seq 5: mBaoJin Supercharged (Best Thermostability — LOW RISK)
 - **Scaffold**: mBaoJin (EC=128,000, QY=0.93, Tm≈95°C)
@@ -195,7 +195,7 @@ Mutations removed based on ThermoMPNN destabilization:
   - T125P, D193P (loop stabilization via proline)
 - **Rationale**: Maximum aggregation prevention through aggressive supercharging (net charge -13). All cysteines removed for CFPS compatibility. Proline substitutions at flexible loops reduce entropy of unfolded state.
 - **Expected score**: ~0.95× sfGFP (wins thermostability through maximum refolding)
-<div align="center"> <img width="840" height="595" alt="5" src="https://github.com/user-attachments/assets/b1b4dc8a-d0f7-4c2e-86ee-def69abf86c7" />
+<div align="center"> <img width="840" height="595" alt="5" src="https://github.com/user-attachments/assets/b1b4dc8a-d0f7-4c2e-86ee-def69abf86c7" /> </div>
 
 ### Seq 6: sfGFP V206F Dimer (Balanced — LOW RISK) ★ UPDATED
 - **Scaffold**: sfGFP (EC=83,300, QY=0.65)
@@ -213,12 +213,12 @@ Mutations removed based on ThermoMPNN destabilization:
   - C48S, C70A (remove cysteines)
 - **Rationale**: Simpler dimer design without H148S/C mutations. V206F promotes dimerization for refolding protection + EC enhancement + exciton coupling. K158G and S175T provide strong brightness baseline from data. N198P and H231P improve heat recovery. K26E and K131E removed as most destabilizing supercharging. N39P and E172P were removed based on ThermoMPNN (ddG=+2.38 and +1.26 respectively).
 - **Expected score**: ~1.5× sfGFP (improved heat recovery)
-<div align="center"> <img width="840" height="595" alt="6" src="https://github.com/user-attachments/assets/33bda19f-a44b-4ebb-ae52-11966193e325" />
+<div align="center"> <img width="840" height="595" alt="6" src="https://github.com/user-attachments/assets/33bda19f-a44b-4ebb-ae52-11966193e325" /> </div>
 
 ## Gain/Risk Analysis Summary
 
 Quantitative gain/risk scoring was performed for all 6 sequences. Each sequence was scored on Gain (1-10, based on expected brightness) and Risk (1-10, composite of dominant failure mode). Net = Gain - Risk.
-<div align="center"> <img width="850" height="579" alt="image" src="https://github.com/user-attachments/assets/83c8175b-1cff-47c4-8923-baeaa4c6840a" />
+<div align="center"> <img width="850" height="579" alt="image" src="https://github.com/user-attachments/assets/83c8175b-1cff-47c4-8923-baeaa4c6840a" /> </div>
 
 | Seq | Name | Expected Brightness | Best Case | Worst Case | Dimer Prob | Gain/10 | Risk/10 | Net | Verdict |
 |-----|------|-------------------|-----------|------------|------------|---------|---------|-----|---------|
@@ -234,7 +234,7 @@ Quantitative gain/risk scoring was performed for all 6 sequences. Each sequence 
 **Key insight**: The new Seq 4 (H148S monomer) has the best net score (+4) because it eliminates dimer risk entirely while maintaining high brightness from YuzuFP + data-driven mutations. Its worst-case brightness (4.50×) equals Seq 3's worst case, but with zero dimer dependency.
 
 ### Competition Score Estimates (F_final/F_sfGFP)
-<div align="center"> <img width="1726" height="1139" alt="image" src="https://github.com/user-attachments/assets/0b5b632f-d485-4f6b-96d9-af1ded7003ea" />
+<div align="center"> <img width="1726" height="1139" alt="image" src="https://github.com/user-attachments/assets/0b5b632f-d485-4f6b-96d9-af1ded7003ea" /> </div>
 
 | Seq | F_initial/F_sfGFP | F_final/F_initial | F_final/F_sfGFP | Confidence |
 |-----|--------------------|--------------------|-----------------|------------|
@@ -261,7 +261,7 @@ Quantitative gain/risk scoring was performed for all 6 sequences. Each sequence 
 ## Structural Validation
 
 ### Boltz-2 Predictions
-<div align="center"> <img width="848" height="557" alt="image" src="https://github.com/user-attachments/assets/a19328bf-aefb-497b-8a16-e2ab9061b6d7" />
+<div align="center"> <img width="848" height="557" alt="image" src="https://github.com/user-attachments/assets/a19328bf-aefb-497b-8a16-e2ab9061b6d7" /> </div>
 
 | Sequence | Type | pTM | iPTM | pLDDT | Quality |
 |----------|------|-----|------|-------|---------|
