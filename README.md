@@ -5,7 +5,12 @@
 
 Six engineered GFP sequences were designed for SynBio-Challenges(2026), targeting fluorescent and thermostability, with the following guidelines:
 
-- Teams are tasked with computationally designing up to six GFP variants (220–250 amino acids) that achieve both high fluorescence brightness and strong thermal stability, either de novo or based on known GFP sequences. Submissions must include properly formatted amino acid sequences, a design methodology document, and an open-source code repository. Selected sequences will be synthesized and expressed using a cell-free protein synthesis (CFPS) system, where initial fluorescence (F_initial) is measured, followed by heat treatment at 72°C and measurement of post-heat fluorescence (F_final). Scoring per sequence combines relative brightness (F_initial normalized to wild-type) and thermal stability retention (F_final/F_initial). Sequences with less than 30% of wild-type brightness are disqualified. Final team ranking is based on the highest-scoring sequence, with additional awards for brightness and stability.
+- Teams are tasked with computationally designing up to six GFP variants (220–250 amino acids) that achieve both high fluorescence brightness and strong thermal stability, either de novo or based on known GFP sequences.
+- Submissions must include properly formatted amino acid sequences, a design methodology document, and an open-source code repository.
+- Selected sequences will be synthesized and expressed using a cell-free protein synthesis (CFPS) system, where initial fluorescence (F_initial) is measured, followed by heat treatment at 72°C and measurement of post-heat fluorescence (F_final).
+- Scoring per sequence combines relative brightness (F_initial normalized to wild-type) and thermal stability retention (F_final/F_initial).
+- Sequences with less than 30% of wild-type brightness are disqualified.
+- Final team ranking is based on the highest-scoring sequence, with additional awards for brightness and stability.
 ### Our designs leverage three key insights:
 
 1. **Refolding efficiency**: At 72°C/10min, most GFPs partially unfold. The score depends on whether unfolded molecules refold during 5-min renaturation at 25°C. Preventing irreversible aggregation is the critical bottleneck.
